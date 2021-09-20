@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.main-box{
+    height: 100vmin;
+    width: 100vmin;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.player1-box{
+    background-color: red;
+    height: 10vmin;
+    width: 10vmin;
+    cursor: pointer;
+}
+.player2-box{
+    background-color: blue;
+    height: 10vmin;
+    width: 10vmin;
+    cursor: pointer;
+}
+.box{
+    cursor: pointer;
+}
+#box1{
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+}
+#box2{
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
+}
+#box3{
+    border-bottom: 4px solid black;
+}
+#box4{
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+}
+#box5{
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+}
+#box6{
+    border-bottom: 4px solid black;
+}
+#box7{
+    border-right: 4px solid black;
+}
+#box8{
+    border-right: 4px solid black;
+}
